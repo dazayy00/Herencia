@@ -8,27 +8,27 @@ package Libro;
  *
  * @author johan
  */
-public class LibroTexto extends Libro{
-    private String curso;
+public class Novelas extends Libro{
+    private String tipo;
 
-    public LibroTexto(String titulo, String autor, String curso) {
+    public Novelas(String titulo, String autor, String tipo) {
         super(titulo, autor);
-        this.curso = curso;
+        this.tipo = tipo;
     }
 
-    public String getCurso() {
-        return curso;
+    public String getTipo() {
+        return tipo;
     }
 
-    public void setCurso(String curso) {
-        this.curso = curso;
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
     }
-       
+    
     @Override
     public void imprimir(){
-        System.out.println("Nombre del libro "+ super.getTitulo());
+        System.out.println("titulo del libro "+ super.getTitulo());
         System.out.println("Autor del libro "+ super.getAutor());
-        System.out.println("Curso donde se uso el libro "+ curso);
+        System.out.println("Tipo del libro " + tipo);
         System.out.println("precio del libro "+ super.getPrecio());
     }
 }

@@ -1,4 +1,9 @@
+Libro\Libro.class
 Banco\CuentaCorriente.class
+Libro\LibroMain.class
+Banco\CuentaBancaria.class
+Libro\LibroTexto.class
+Libro\Novelas.class
+Libro\LibroUNC.class
 Banco\Prueba.class
 Banco\CuentaAhorros.class
-Banco\CuentaBancaria.class
