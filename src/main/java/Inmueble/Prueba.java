@@ -9,8 +9,8 @@ public class Prueba {
         
         System.out.println("Datos Apartamento");
         Apartaestudio ape1 = new Apartaestudio(12354, 50, "Avenida caracas 30-15", 1, 1);
-        
-        //pagina 224
+        ape1.CalcularPrecioVenta(ape1.valorA);
+        ape1.imprimir();
     }
     
 }
