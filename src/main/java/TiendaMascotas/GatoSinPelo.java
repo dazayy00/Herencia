@@ -25,7 +25,13 @@ public class GatoSinPelo extends Gatos{
         this.raza = raza;
     }
     
-    //agregar switch
+   public void descripcion(){
+       switch(raza){
+           case Esfinge -> System.out.println("gato esfinge");
+           case Elfo -> System.out.println("Elfos y gnomos");
+           case Donskoy -> System.out.println("No se cual sea ");
+       }
+   }
 
     @Override
     public void imprimir() {
